@@ -31,4 +31,9 @@ Then grabs the price information from the listing on that page, putting it into 
 
 The program then navigates all the way through the directory page, selecting each item. Once it reaches the end (after 10 items), it moves up or down a page by clicking the side arrows based on the original parameters it was given.
 
-All price data is printed to standard out, but it would easy to switch it to outputting to a text file.
+All price data is printed to standard out, but it would easy to switch it to outputting to a text file. The final data looks like this:
+```
+2. StatTrak™ MAC-10 | Ultraviolet (Factory New) 
+ ['9,69€', '$10.35', '11,73€', '12,30€', 'CDN$ 17.25', '$12.97', '₩ 15,202.21', '¥ 89.33', '850 pуб.', '£12.35']
+```
+Although it is currently in local currency, there are plans to figure out a good way to make it show USD. One could be cribbing the currency converter from v2 (with a bit of rewriting, of course). Also, a more trusted account should have it in USD by default.
