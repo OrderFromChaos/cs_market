@@ -2,7 +2,7 @@
 ```
 NOTE: The use of any of this code may violate the Steam TOS.
 ```
-The TOS bans the use of botting to automate market processes. This was written as a code experiment to test my mettle on auto-browsing websites and pulling data from real sources. As such, probably avoid using your own account or buying anything while testing this repo.
+The TOS bans the use of botting to automate market processes. This was written as a code experiment to test my mettle on auto-browsing websites and pulling data from real sources. This code does not automate buying or selling, only pulling information (at a slow rate) from the Steam Marketplace. Either way, I suggest avoiding using your own account or buying anything while testing this repo.
 
 The code here is split into three versions, each of which represent my progress on getting better at software design and various Python libraries.
 
