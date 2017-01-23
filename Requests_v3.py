@@ -57,8 +57,8 @@ def cleanName(name):
 login_url = r'https://store.steampowered.com//login/'
 browser.get(login_url)
 time.sleep(5)
-username = '' #Put your username (or dummy account username) here
-password = '' #Put your password here. There is a password generator attached as a function.
+username = ''
+password = ''
 username_box = browser.find_element_by_css_selector('#input_username')
 password_box = browser.find_element_by_css_selector('#input_password')
 username_box.send_keys(username)
@@ -107,13 +107,3 @@ for pageno in range(initial_page, final_page+addor ,addor):
     
     print('\n')
 
-def generate(length):
-    import random
-    allowed = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','1','2','3','4','5','6','7','8','9','0']
-    passw = str()
-    for i in range(length):
-        passw += allowed[random.randint(0,len(allowed)-1)]
-    return passw
-
-password = generate(10)
-print(password)
