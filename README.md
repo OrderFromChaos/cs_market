@@ -13,7 +13,7 @@ Version 1 is the first version, which uses [Steam's backend](http://steamcommuni
 ```
 
 ----------------------------------------------------------------------------------------------------------------------------------------
-####Version 2: More robust data
+#### Version 2: More robust data
 Version 2 uses [beautifulsoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to augment lxml, and pulls data from the actual community market webpages, making the data more robust. However, it is much slower than v1, and can update individual item price listings every 12.5 seconds. It also has a rather messy original web data pull, which looks like this:
 ```
 [<span class="market_listing_price market_listing_price_with_fee">
